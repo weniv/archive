@@ -164,6 +164,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // 입력창 리셋 버튼
+  const $resetBtn = document.querySelector(".reset-btn");
+  $resetBtn.addEventListener("click", () => {
+    $searchInp.value = "";
+    search = "";
+    searchData(storedData[category], "");
+  });
+
   // Initialize
   fetchData();
 });
