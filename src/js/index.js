@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const apiUrl = "/src/data/data.json";
+  const apiUrl = "https://weniv.github.io/weniv_portfolio/src/data/data.json";
   const contentList = document.querySelector(".content-list");
   let storedData = [];
   let totalData = [];
