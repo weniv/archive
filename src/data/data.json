@@ -1,0 +1,227 @@
+{
+  "서비스": [
+    {
+      "id": 1,
+      "title": "1만 시간의 법칙 계산기",
+      "description": "“연습은 어제의 당신보다 당신을 더 낫게 만든다.” 1만 시간의 법칙 계산기",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "서비스",
+      "link:": "https://paullab.co.kr/10000hours.html"
+    },
+    {
+      "id": 2,
+      "title": "M.B.I.T 테스트",
+      "description": "나에게 꼭 맞는 개발 유형은 무엇일까? MBTI가 아닌 M.B.I.T! 직접 테스트해 보세요!",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "서비스",
+      "link:": "https://dev.habitmaker.co.kr/"
+    },
+    {
+      "id": 3,
+      "title": "Day Habit Challenge-Dev",
+      "description": "하루하루 천천히 습관 만들기 도전! 귀여운 챌린지 기록 서비스(개발자 버전)",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "서비스",
+      "link:": "https://dev.habitmaker.co.kr/"
+    },
+    {
+      "id": 4,
+      "title": "Day Habit Challenge",
+      "description": "하루하루 천천히 습관 만들기 도전! 귀여운 챌린지 기록 서비스",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "서비스",
+      "link:": "http://habitmaker.co.kr/"
+    },
+    {
+      "id": 5,
+      "title": "Python Algorithm Best 20",
+      "description": "Python 알고리즘 테스트 서비스",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "서비스",
+      "link:": "https://pyalgo.co.kr/"
+    },
+    {
+      "id": 6,
+      "title": "JS Algorithm Best 20",
+      "description": "JavaScript 알고리즘 테스트 서비스",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "서비스",
+      "link:": "https://jsalgo.co.kr/"
+    },
+    {
+      "id": 7,
+      "title": "스터디인(Studyin)",
+      "description": "지역 기반 개발 스터디그룹 모집 플랫폼",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "서비스",
+      "link:": "https://www.studyin.co.kr/"
+    }
+  ],
+  "오픈소스 프로젝트": [
+    {
+      "id": 1,
+      "title": "DataGen",
+      "description": "서비스를 만들거나 데이터 분석을 할 때 필요한 데이터를 생성할 수 있는 서비스",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "오픈소스 프로젝트",
+      "link:": "https://datagenerator.co.kr/"
+    },
+    {
+      "id": 2,
+      "title": "DataGen",
+      "description": "서비스를 만들거나 데이터 분석을 할 때 필요한 데이터를 생성할 수 있는 서비스",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "오픈소스 프로젝트",
+      "link:": "https://datagenerator.co.kr/"
+    }
+  ],
+  "온라인 강의 플랫폼": [
+    {
+      "id": 1,
+      "title": "[인프런] 제주코딩베이스캠프",
+      "description": "코알못에서 웹 서비스 런칭까지! 제주코딩베이스캠프와 함께 자신만의 서비스를 만들어보세요.",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "온라인 강의 플랫폼",
+      "link:": "https://www.inflearn.com/users/@jejucoding"
+    },
+    {
+      "id": 2,
+      "title": "[인프런] 더 오름(The Oreum)",
+      "description": "제주코딩베이스캠프의 프리미엄 브랜드로 주로 실무, 취업과 연관된 강의를 제작하고 있습니다.",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "온라인 강의 플랫폼",
+      "link:": "https://www.inflearn.com/users/200714"
+    }
+  ],
+  "온/오프라인 캠프": [
+    {
+      "id": 1,
+      "title": "제주 코딩 베이스 캠프",
+      "description": "제주에서 5~6일간 진행되는 오프라인 프로그래밍 교육과정 + 해커톤입니다.",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "온/오프라인 캠프",
+      "link:": "https://jejucodingcamp.com/"
+    },
+    {
+      "id": 2,
+      "title": "제주 알고리즘 베이스 캠프",
+      "description": "2박 3일동안 제주에서 진행되는 알고리즘 베이스 캠프! 여러 개발자와 즐거운 문제 풀이를 함께 해요!",
+      "thumbnailImg": "",
+      "pubData": "2022-10-10",
+      "category": "온/오프라인 캠프",
+      "link:": "https://jejualcam.co.kr/"
+    }
+  ],
+  "KDT": [
+    {
+      "id": 1,
+      "title": "[TECHIT] 프론트엔드 스쿨",
+      "description": "기본기와 협업 역량을 동시에 갖춘 주니어 프론트엔드 개발자로의 성장",
+      "thumbnailImg": "",
+      "pubData": "2023-11-10",
+      "category": "KDT",
+      "link:": "https://abit.ly/fes7_techit_share"
+    },
+    {
+      "id": 2,
+      "title": "[TECHIT] 데이터분석 스쿨",
+      "description": "밀도높은 학습 성장 경험을 통해 데이터 분석가로 발돋움할 수 있는 데이터 분석 핵심 집중교육",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "KDT",
+      "link:": "https://techit.education/school/kdt-dataanalysis-1st"
+    }
+  ],
+  "청년 지원 프로그램": [
+    {
+      "id": 1,
+      "title": "위니브 청년 ICT 부스트 장학금",
+      "description": "ICT로 진로 직업을 선택한 열정 있는 청년에게 도움을 드리는 장학금입니다.",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "청년 지원 프로그램",
+      "link:": "https://scholarship.weniv.co.kr/"
+    },
+    {
+      "id": 2,
+      "title": "위니브 엠버서더",
+      "description": "개발자로서의 성장을 원한다면? 위니브 엠버서더",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "청년 지원 프로그램",
+      "link:": "https://ambassador.weniv.co.kr/"
+    }
+  ],
+  "전자책": [
+    {
+      "id": 1,
+      "title": "알고리즘 베스트 20 문제집 with Python & Algorithm",
+      "description": "모의 코딩 테스트 서비스인 <알고리즘 베스트 20>에 소개된 문제가 담겨있습니다.",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "전자책",
+      "link:": "https://ridibooks.com/books/2773000066?_s=search&_q=%EC%82%AC%EB%8F%84%EC%B6%9C%ED%8C%90&_rdt_sid=search&_rdt_idx=8"
+    },
+    {
+      "id": 2,
+      "title": "신입 개발자 이력서 작성 가이드 - 개발자 취업 잘하는 법",
+      "description": "신입 개발자를 위한 개발자 이력서 작성 가이드",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "전자책",
+      "link:": "https://ridibooks.com/books/2773000064?_s=search&_q=%EC%82%AC%EB%8F%84%EC%B6%9C%ED%8C%90&_rdt_sid=search&_rdt_idx=10"
+    }
+  ],
+  "이모티콘": [
+    {
+      "id": 1,
+      "title": "[카카오톡] 입체적인 후드 개구리",
+      "description": "카카오톡으로 소통하는 MZ 세대를 위한 이모티콘",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "이모티콘",
+      "link:": "https://e.kakao.com/t/the-3d-frog-in-a-hoodie?t_ch=share_link_web"
+    },
+    {
+      "id": 2,
+      "title": "[카카오톡] 입체적인 디자이너",
+      "description": "카카오톡으로 소통하는 디자이너를 위한 이모티콘",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "이모티콘",
+      "link:": "https://e.kakao.com/t/the-three-dimensional-designer?t_ch=share_link_web"
+    }
+  ],
+  "기타": [
+    {
+      "id": 1,
+      "title": "위니브 공식 네이버 블로그",
+      "description": "매주 업로드되는 따끈따끈 ‘주간 IT 소식’을 놓치지 마세요!",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "기타",
+      "link:": "https://blog.naver.com/paul-lab"
+    },
+    {
+      "id": 2,
+      "title": "우당탕탕 라이캣의 실험실",
+      "description": "개발자를 위한 캐릭터 굿즈샵, 위니브 공식 네이버 스마트 스토어",
+      "thumbnailImg": "",
+      "pubData": "",
+      "category": "기타",
+      "link:": "https://smartstore.naver.com/weniv_storeb"
+    }
+  ]
+}
