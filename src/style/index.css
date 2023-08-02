@@ -6,7 +6,7 @@
   margin: auto;
   max-width: 1280px;
   width: 100%;
-  padding: 1.6rem 4rem;
+  padding: 1.7rem 4rem;
 }
 
 .header .title img {
@@ -46,7 +46,7 @@
 .main .search-cont {
   display: flex;
   align-items: center;
-  width: 50rem;
+  width: min(50rem, Calc(100% - 2rem));
   position: relative;
   margin: 0 auto 4rem;
 }
@@ -92,12 +92,15 @@
 /* content container */
 .main .content-cont {
   margin: 4rem auto 10rem;
+  width: min(1200px, Calc(100% - 4rem));
 }
 
 .content-cont .content-list {
+  width: fit-content;
   display: grid;
   gap: 2.5rem;
   grid-template-columns: repeat(3, 1fr);
+  margin: auto;
 }
 
 .content-cont .content-item {
@@ -165,6 +168,17 @@
   height: 2rem;
 }
 
+.main .top-btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--borderColor);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2.4rem;
+  right: 2.4rem;
+  cursor: pointer;
+}
+
 /* .main */
 
 /* footer */
@@ -173,12 +187,73 @@
   margin: auto;
   max-width: 1280px;
   width: Calc(100% - 6rem);
-  padding: 6rem;
+  padding: 6rem 0;
   border-top: 1px solid var(--borderColor);
 }
 
 .footer small {
   color: var(--fontLightGray);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 500;
 }
 
 /* .footer */
+
+/* media */
+@media (max-width: 1025px) {
+  .main .category-nav {
+    width: Calc(100% - 13.3rem);
+  }
+}
+@media (max-width: 834px) {
+  .main .content-cont {
+    margin: 4rem auto 8rem;
+  }
+
+  .content-cont .content-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    width: Calc(100% - 4rem);
+  }
+}
+@media (max-width: 390px) {
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .header .title img {
+    width: 9rem;
+    height: 2.5rem;
+  }
+
+  .main .info-tit {
+    margin: 4rem auto 3.2rem;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  .main .search-cont {
+    margin: 0 auto 3.6rem;
+  }
+
+  .main .category-nav {
+    width: Calc(100% - 5.5rem);
+  }
+
+  .main .content-cont {
+    margin: 2rem auto 6rem;
+  }
+
+  .content-cont .content-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer {
+    width: Calc(100% - 2rem);
+    padding: 4rem 0;
+  }
+}
+
+/* .media */

@@ -45,16 +45,16 @@ document.addEventListener("DOMContentLoaded", () => {
       const info = document.createElement("div");
       info.className = "info-cont";
       const tit = document.createElement("strong");
-      tit.className = "tit";
+      tit.className = "tit sl-ellipsis";
       tit.innerText = item.title;
       const desc = document.createElement("p");
-      desc.className = "description";
+      desc.className = "description multi-ellipsis";
       desc.innerText = item.description;
 
       const addition = document.createElement("div");
       addition.className = "addition-cont";
       const category = document.createElement("p");
-      category.className = "category";
+      category.className = "category sl-ellipsis";
       category.innerText = item.category;
 
       const link = document.createElement("a");
@@ -116,4 +116,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initialize
   fetchData();
+});
+
+const $topBtn = document.querySelector(".top-btn");
+
+$topBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });
