@@ -106,10 +106,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const contTitle = document.querySelector(".list-tit");
     if (category === "전체") {
       contTitle.innerText = "전체 컨텐츠 목록";
-      renderContent(totalData);
+      if (search) {
+        searchData(totalData, search);
+      } else {
+        renderContent(totalData);
+      }
     } else {
       contTitle.innerText = `${category} 컨텐츠 목록`;
-      renderContent(storedData[category]);
+      if (search) {
+        searchData(storedData[category], search);
+      } else {
+        renderContent(storedData[category]);
+      }
     }
   }
 
