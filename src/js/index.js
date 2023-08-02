@@ -150,15 +150,6 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchData();
 });
 
-const $topBtn = document.querySelector(".top-btn");
-
-$topBtn.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
-
 function highlight(string, target) {
   return string.split(target).join(`<span class="txt-highlight">${target}</span>`);
 }
