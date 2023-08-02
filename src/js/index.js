@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 화면에 컨텐츠를 렌더링
   function renderContent(data) {
     contentList.innerHTML = "";
-    console.log("render", data);
+
     // pubData가 없는 경우에는 id 기준으로 정렬
     data.sort((a, b) => {
       if (a.pubDate === "" && b.pubDate === "") {
@@ -120,11 +120,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const searched = { ...item };
         searched.title = highlight(searched.title, target);
         searched.description = highlight(searched.description, target);
-        console.log(searched);
         searchedContent.push(searched);
       }
     });
-    console.log(searchedContent);
     renderContent(searchedContent);
   }
 
