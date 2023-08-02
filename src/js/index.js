@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const apiUrl = "/src/data/data.json";
   const contentList = document.querySelector(".content-list");
   let storedData = [];
+  let totalData = [];
+  let category = "전체";
+  let search = "";
 
   // JSON 파일에서 데이터 가져오기
   async function fetchData() {
@@ -9,7 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const response = await fetch(apiUrl);
       const data = await response.json();
       storedData = data;
-      showAllData();
+      Object.keys(data).map((key) => {
+        totalData.push(...data[key]);
+        renderContent(totalData);
+      });
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -46,10 +52,10 @@ document.addEventListener("DOMContentLoaded", () => {
       info.className = "info-cont";
       const tit = document.createElement("strong");
       tit.className = "tit sl-ellipsis";
-      tit.innerText = item.title;
+      tit.innerHTML = item.title;
       const desc = document.createElement("p");
       desc.className = "description multi-ellipsis";
-      desc.innerText = item.description;
+      desc.innerHTML = item.description;
 
       const addition = document.createElement("div");
       addition.className = "addition-cont";
@@ -81,28 +87,6 @@ document.addEventListener("DOMContentLoaded", () => {
     contentList.appendChild(datafragment);
   }
 
-  // 필터 상관 없이 전체 데이터 출력
-  function showAllData() {
-    const showData = [];
-    Object.keys(storedData).map((key) => {
-      // data 배열에 storedData[key]에 해당하는 value의 배열을 추가
-      showData.push(...storedData[key]);
-    });
-    renderContent(showData);
-  }
-
-  // 필터 적용 시 화면 재렌더링
-  function setCategory(category) {
-    const contTitle = document.querySelector(".list-tit");
-    if (category === "전체") {
-      contTitle.innerText = "전체 컨텐츠 목록";
-      showAllData();
-    } else {
-      contTitle.innerText = `${category} 컨텐츠 목록`;
-      renderContent(storedData[category]);
-    }
-  }
-
   // category-btn 을 갖는 모든 label 요소에 이벤트 추가
   const labels = document.querySelectorAll("label");
 
@@ -110,8 +94,58 @@ document.addEventListener("DOMContentLoaded", () => {
     label.addEventListener("click", () => {
       const inputId = label.getAttribute("for");
       const inputElement = document.getElementById(inputId);
+      category = inputElement.value;
       setCategory(inputElement.value);
     });
+  });
+
+  // 필터 적용 시 화면 재렌더링
+  function setCategory(category) {
+    const contTitle = document.querySelector(".list-tit");
+    if (category === "전체") {
+      contTitle.innerText = "전체 컨텐츠 목록";
+      renderContent(totalData);
+    } else {
+      contTitle.innerText = `${category} 컨텐츠 목록`;
+      renderContent(storedData[category]);
+    }
+  }
+
+  function searchData(data, target) {
+    const searchedContent = [];
+    search = target;
+
+    data.map((item) => {
+      if (item.title.includes(target) || item.description.includes(target)) {
+        const searched = { ...item };
+        searched.title = highlight(searched.title, target);
+        searched.description = highlight(searched.description, target);
+        console.log(searched);
+        searchedContent.push(searched);
+      }
+    });
+    console.log(searchedContent);
+    renderContent(searchedContent);
+  }
+
+  // 검색 이벤트
+  const $searchBtn = document.querySelector(".search-btn");
+  const $searchInp = document.querySelector(".search-inp");
+  $searchBtn.addEventListener("click", () => {
+    if (category == "전체") {
+      searchData(totalData, $searchInp.value);
+    } else {
+      searchData(storedData[category], $searchInp.value);
+    }
+  });
+  $searchInp.addEventListener("keypress", (e) => {
+    if (e.keyCode == 13) {
+      if (category == "전체") {
+        searchData(totalData, $searchInp.value);
+      } else {
+        searchData(storedData[category], $searchInp.value);
+      }
+    }
   });
 
   // Initialize
@@ -126,3 +160,7 @@ $topBtn.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+function highlight(string, target) {
+  return string.split(target).join(`<span class="txt-highlight">${target}</span>`);
+}

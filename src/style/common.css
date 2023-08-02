@@ -16,7 +16,7 @@
 html {
   font-size: 10px;
 }
-finp body {
+body {
   font-size: 1.6rem;
   line-height: 2rem;
   font-family: "Pretendard";
@@ -134,7 +134,5 @@ textarea:active {
 }
 
 .txt-highlight {
-  position: relative;
-  z-index: 0;
-  box-shadow: inset 0 -16px 0 var(--bgLightBlue);
+  color: var(--mainColor);
 }
