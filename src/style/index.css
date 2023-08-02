@@ -58,7 +58,7 @@
   border: none;
   background-color: var(--bgColor);
 }
-.search-inp:not(:placeholder-shown) + .btn-cont .reset-btn {
+.search-inp:not(:placeholder-shown):focus + .btn-cont .reset-btn {
   display: block;
 }
 .search-inp:not(:placeholder-shown):hover + .btn-cont .reset-btn {
