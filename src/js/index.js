@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const response = await fetch(apiUrl);
       const data = await response.json();
       storedData = data;
-      showAllData(data);
+      showAllData();
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 화면에 컨텐츠를 렌더링
   function renderContent(data) {
     contentList.innerHTML = "";
-    console.log(data);
+    console.log("render", data);
     // pubData가 없는 경우에는 title 기준으로 정렬
     data.sort((a, b) => {
       if (a.pubDate === "" && b.pubDate === "") {
@@ -33,52 +33,51 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const datafragment = document.createDocumentFragment();
-    data &&
-      data.forEach((item) => {
-        const li = document.createElement("li");
-        li.className = "content-item";
+    data.forEach((item) => {
+      const li = document.createElement("li");
+      li.className = "content-item";
 
-        const thumb = document.createElement("img");
-        thumb.className = "thumbnail";
-        thumb.setAttribute("src", item.thumbnailImg);
-        thumb.setAttribute("alt", "썸네일");
+      const thumb = document.createElement("img");
+      thumb.className = "thumbnail";
+      thumb.setAttribute("src", item.thumbnailImg);
+      thumb.setAttribute("alt", "썸네일");
 
-        const info = document.createElement("div");
-        info.className = "info-cont";
-        const tit = document.createElement("strong");
-        tit.className = "tit";
-        tit.innerText = item.title;
-        const desc = document.createElement("p");
-        desc.className = "description";
-        desc.innerText = item.description;
+      const info = document.createElement("div");
+      info.className = "info-cont";
+      const tit = document.createElement("strong");
+      tit.className = "tit";
+      tit.innerText = item.title;
+      const desc = document.createElement("p");
+      desc.className = "description";
+      desc.innerText = item.description;
 
-        const addition = document.createElement("div");
-        addition.className = "addition-cont";
-        const category = document.createElement("p");
-        category.className = "category";
-        category.innerText = item.category;
+      const addition = document.createElement("div");
+      addition.className = "addition-cont";
+      const category = document.createElement("p");
+      category.className = "category";
+      category.innerText = item.category;
 
-        const link = document.createElement("a");
-        link.className = "link";
-        link.setAttribute("href", item.link);
-        link.setAttribute("target", "_blank");
-        const img = document.createElement("img");
-        img.setAttribute("src", "./src/assets/icon-Shar.svg");
-        img.setAttribute("alt", "링크로 이동");
-        link.appendChild(img);
+      const link = document.createElement("a");
+      link.className = "link";
+      link.setAttribute("href", item.link);
+      link.setAttribute("target", "_blank");
+      const img = document.createElement("img");
+      img.setAttribute("src", "./src/assets/icon-Shar.svg");
+      img.setAttribute("alt", "링크로 이동");
+      link.appendChild(img);
 
-        addition.appendChild(category);
-        addition.appendChild(link);
+      addition.appendChild(category);
+      addition.appendChild(link);
 
-        info.appendChild(tit);
-        info.appendChild(desc);
-        info.appendChild(addition);
+      info.appendChild(tit);
+      info.appendChild(desc);
+      info.appendChild(addition);
 
-        li.appendChild(thumb);
-        li.appendChild(info);
+      li.appendChild(thumb);
+      li.appendChild(info);
 
-        datafragment.appendChild(li);
-      });
+      datafragment.appendChild(li);
+    });
     contentList.appendChild(datafragment);
   }
 
@@ -100,8 +99,8 @@ document.addEventListener("DOMContentLoaded", () => {
       showAllData();
     } else {
       contTitle.innerText = `${category} 컨텐츠 목록`;
+      renderContent(storedData[category]);
     }
-    renderContent(storedData[category]);
   }
 
   // category-btn 을 갖는 모든 label 요소에 이벤트 추가
