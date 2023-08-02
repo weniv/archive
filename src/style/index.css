@@ -253,6 +253,10 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .content-cont .content-item {
+    width: 35rem;
+  }
+
   .footer {
     width: Calc(100% - 2rem);
     padding: 4rem 0;
