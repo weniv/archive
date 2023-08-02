@@ -21,7 +21,12 @@
 
       <div class="search-cont">
         <input type="text" class="search-inp" placeholder="어떤 서비스를 찾고 계신가요?" />
-        <button type="button" class="search-btn"><img src="./src/assets/icon-Search.svg" alt="" /></button>
+        <div class="btn-cont">
+          <button class="reset-btn">
+            <img src="./src/assets/icon-X.svg" alt="검색어 초기화" />
+          </button>
+          <button type="button" class="search-btn"><img src="./src/assets/icon-Search.svg" alt="검색" /></button>
+        </div>
       </div>
 
       <nav class="category-nav">
@@ -59,6 +64,7 @@
       <section class="content-cont">
         <h3 class="ir list-tit">전체 컨텐츠 목록</h3>
         <ul class="content-list"></ul>
+        <p class="msg-content"></p>
       </section>
 
       <button class="top-btn" type="button">

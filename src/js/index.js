@@ -125,7 +125,13 @@ document.addEventListener("DOMContentLoaded", () => {
         searchedContent.push(searched);
       }
     });
+    // searchedContent가 빈 배열일 때
     renderContent(searchedContent);
+
+    if (!searchedContent.length) {
+      const msgContent = document.querySelector(".msg-content");
+      msgContent.innerHTML = "검색어에 일치하는 서비스가 없습니다.";
+    }
   }
 
   // 검색 이벤트
