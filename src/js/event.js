@@ -9,8 +9,8 @@ $topBtn.addEventListener("click", () => {
 
 const $officialLink = document.querySelector(".official-link");
 $officialLink.addEventListener("mouseenter", () => {
-  $officialLink.querySelector("img").setAttribute("src", "./src/assets/icon-home-dark.svg");
+  $officialLink.querySelector("img").setAttribute("src", "./src/assets/icon-Home-dark.svg");
 });
 $officialLink.addEventListener("mouseleave", () => {
-  $officialLink.querySelector("img").setAttribute("src", "./src/assets/icon-home.svg");
+  $officialLink.querySelector("img").setAttribute("src", "./src/assets/icon-Home.svg");
 });
