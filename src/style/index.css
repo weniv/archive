@@ -197,6 +197,11 @@
   height: 2rem;
 }
 
+.content-cont .msg-content {
+  margin: 4rem auto;
+  text-align: center;
+}
+
 .main .top-btn {
   width: 5rem;
   height: 5rem;

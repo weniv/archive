@@ -127,10 +127,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     // searchedContent가 빈 배열일 때
     renderContent(searchedContent);
-
+    const msgContent = document.querySelector(".msg-content");
+    console.log(!searchedContent.length);
     if (!searchedContent.length) {
-      const msgContent = document.querySelector(".msg-content");
-      msgContent.innerHTML = "검색어에 일치하는 서비스가 없습니다.";
+      msgContent.innerHTML = `<span class='txt-highlight'>${target}</span> 에 대한 검색 결과가 없습니다.`;
+    } else {
+      msgContent.innerHTML = "";
     }
   }
 
