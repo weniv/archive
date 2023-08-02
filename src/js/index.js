@@ -25,10 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function renderContent(data) {
     contentList.innerHTML = "";
     console.log("render", data);
-    // pubData가 없는 경우에는 title 기준으로 정렬
+    // pubData가 없는 경우에는 id 기준으로 정렬
     data.sort((a, b) => {
       if (a.pubDate === "" && b.pubDate === "") {
-        return a.title < b.title ? -1 : a.title > b.title ? 1 : 0;
+        return a.id < b.id ? -1 : a.id > b.id ? 1 : 0;
       } else if (a.pubDate === "") {
         return 1;
       } else if (b.pubDate === "") {
