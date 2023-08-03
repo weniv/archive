@@ -203,6 +203,7 @@ body {
   height: 20rem;
   object-fit: cover;
   margin-bottom: 0;
+  border-bottom: 1px solid var(--borderColor);
   display: block;
 }
 
@@ -345,7 +346,7 @@ body {
   }
 
   .main .content-cont {
-    margin: 2rem auto 6rem;
+    margin: 3.6rem auto 6rem;
   }
 
   .content-cont .content-list {
@@ -366,6 +367,14 @@ body {
   .content-cont .msg-content {
     margin: 4rem auto 12rem;
     text-align: center;
+  }
+
+  .content-cont .content-item:hover {
+    transform: inherit;
+  }
+  .content-cont .info-msg {
+    margin: 0 auto 3.6rem;
+    padding: 1.5rem 4rem;
   }
 }
 
