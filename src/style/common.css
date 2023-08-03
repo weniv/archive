@@ -87,6 +87,13 @@ textarea::placeholder {
   color: var(--fontLightGray);
 }
 
+@media (max-width: 540px) {
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 1.4rem;
+  }
+}
+
 input:focus,
 input:active,
 textarea:focus,

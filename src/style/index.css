@@ -349,11 +349,17 @@ body {
 
   .content-cont .content-list {
     grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
   }
 
   .footer {
     width: Calc(100% - 2rem);
     padding: 4rem 0;
+  }
+
+  .info-cont .description {
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 }
 
