@@ -129,6 +129,9 @@ body {
   border: 1px solid var(--borderColor);
   cursor: pointer;
 }
+.category-nav .category-btn:hover {
+  background-color: var(--bgColor);
+}
 
 .category-nav input[type="radio"]:checked + label {
   background-color: var(--mainColor);
