@@ -171,7 +171,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // searchedContent가 빈 배열일 때
     renderContent(searchedContent);
     const msgContent = document.querySelector(".msg-content");
-    console.log(!searchedContent.length);
     if (!searchedContent.length) {
       msgContent.innerHTML = `<span class='txt-highlight'>${target}</span> 에 대한 검색 결과가 없습니다.`;
     } else {
@@ -204,7 +203,11 @@ document.addEventListener("DOMContentLoaded", () => {
   $resetBtn.addEventListener("click", () => {
     $searchInp.value = "";
     search = "";
-    searchData(storedData[category], "");
+    if (category === "전체") {
+      searchData(totalData, "");
+    } else {
+      searchData(storedData[category], "");
+    }
   });
 
   // Initialize

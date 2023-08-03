@@ -361,6 +361,11 @@ body {
     font-size: 1.4rem;
     line-height: 2rem;
   }
+
+  .content-cont .msg-content {
+    margin: 4rem auto 12rem;
+    text-align: center;
+  }
 }
 
 /* .media */
