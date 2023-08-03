@@ -4,7 +4,7 @@
       "id": 1,
       "title": "1만 시간의 법칙 계산기",
       "description": "“연습은 어제의 당신보다 당신을 더 낫게 만든다.” 1만 시간의 법칙 계산기",
-      "thumbnailImg": "src/assets/OG/OG-10000hours.png",
+      "thumbnailImg": "src/assets/OG/service/10000hours.svg",
       "pubDate": "",
       "category": "서비스",
       "link": "https://paullab.co.kr/10000hours.html"
@@ -13,16 +13,16 @@
       "id": 2,
       "title": "M.B.I.T 테스트",
       "description": "나에게 꼭 맞는 개발 유형은 무엇일까? MBTI가 아닌 M.B.I.T! 직접 테스트해 보세요!",
-      "thumbnailImg": "src/assets/OG/OG-10000hours.png",
+      "thumbnailImg": "src/assets/OG/service/MBIT.svg",
       "pubDate": "",
       "category": "서비스",
-      "link": "https://dev.habitmaker.co.kr/"
+      "link": "https://mbit.weniv.co.kr/"
     },
     {
       "id": 3,
       "title": "Day Habit Challenge-Dev",
       "description": "하루하루 천천히 습관 만들기 도전! 귀여운 챌린지 기록 서비스(개발자 버전)",
-      "thumbnailImg": "src/assets/OG/OG-10000hours.png",
+      "thumbnailImg": "src/assets/OG/service/DayHabit.svg",
       "pubDate": "",
       "category": "서비스",
       "link": "https://dev.habitmaker.co.kr/"
@@ -31,7 +31,7 @@
       "id": 4,
       "title": "Day Habit Challenge",
       "description": "하루하루 천천히 습관 만들기 도전! 귀여운 챌린지 기록 서비스",
-      "thumbnailImg": "src/assets/OG/OG-10000hours.png",
+      "thumbnailImg": "src/assets/OG/service/DayHabit.svg",
       "pubDate": "",
       "category": "서비스",
       "link": "http://habitmaker.co.kr/"
@@ -40,7 +40,7 @@
       "id": 5,
       "title": "Python Algorithm Best 20",
       "description": "Python 알고리즘 테스트 서비스",
-      "thumbnailImg": "src/assets/OG/OG-10000hours.png",
+      "thumbnailImg": "src/assets/OG/service/Pyalgo.svg",
       "pubDate": "",
       "category": "서비스",
       "link": "https://pyalgo.co.kr/"
@@ -49,7 +49,7 @@
       "id": 6,
       "title": "JS Algorithm Best 20",
       "description": "JavaScript 알고리즘 테스트 서비스",
-      "thumbnailImg": "src/assets/OG/OG-10000hours.png",
+      "thumbnailImg": "src/assets/OG/service/JSalgo.svg",
       "pubDate": "",
       "category": "서비스",
       "link": "https://jsalgo.co.kr/"
@@ -58,7 +58,7 @@
       "id": 7,
       "title": "스터디인(Studyin)",
       "description": "지역 기반 개발 스터디그룹 모집 플랫폼",
-      "thumbnailImg": "src/assets/OG/OG-10000hours.png",
+      "thumbnailImg": "src/assets/OG/service/Studyin.svg",
       "pubDate": "",
       "category": "서비스",
       "link": "https://www.studyin.co.kr/"
@@ -69,7 +69,7 @@
       "id": 1,
       "title": "DataGen",
       "description": "서비스를 만들거나 데이터 분석을 할 때 필요한 데이터를 생성할 수 있는 서비스",
-      "thumbnailImg": "src/assets/OG/OG-Datagen.png",
+      "thumbnailImg": "src/assets/OG/opensource/Datagen.svg",
       "pubDate": "",
       "category": "오픈소스 프로젝트",
       "link": "https://datagenerator.co.kr/"
@@ -78,7 +78,7 @@
       "id": 2,
       "title": "ALGO.VIEW",
       "description": "알고리즘 코딩 테스트 문제풀이 분석 서비스",
-      "thumbnailImg": "src/assets/OG/OG-Datagen.png",
+      "thumbnailImg": "src/assets/OG/opensource/AlgoView.svg",
 
       "pubDate": "",
       "category": "오픈소스 프로젝트",
@@ -88,7 +88,7 @@
       "id": 3,
       "title": "SQooL: SQL School",
       "description": "로그인, 설치 등 번거로운 과정 없이 웹에서 쉽게 SQL을 배울 수 있는 서비스",
-      "thumbnailImg": "src/assets/OG/OG-Datagen.png",
+      "thumbnailImg": "src/assets/OG/opensource/SQooL.svg",
       "pubDate": "",
       "category": "오픈소스 프로젝트",
       "link": "https://sqlschool.co.kr/"
@@ -97,7 +97,7 @@
       "id": 4,
       "title": "FLEX x GRID",
       "description": "-",
-      "thumbnailImg": "src/assets/OG/OG-Datagen.png",
+      "thumbnailImg": "src/assets/OG/opensource/FlexGrid.svg",
       "pubDate": "",
       "category": "오픈소스 프로젝트",
       "link": "https://flexngrid.com/"
@@ -106,7 +106,7 @@
       "id": 5,
       "title": "StopWar",
       "description": "우크라이나 전쟁관련 소식 제공 비영리 서비스",
-      "thumbnailImg": "src/assets/OG/OG-Datagen.png",
+      "thumbnailImg": "src/assets/OG/opensource/StopWar.svg",
       "pubDate": "",
       "category": "오픈소스 프로젝트",
       "link": "https://stopwar.co.kr/"
@@ -115,7 +115,7 @@
       "id": 6,
       "title": "2020 라이브 코로나맵",
       "description": "-",
-      "thumbnailImg": "src/assets/OG/OG-Datagen.png",
+      "thumbnailImg": "src/assets/OG/opensource/LiveCovid.svg",
       "pubDate": "",
       "category": "오픈소스 프로젝트",
       "link": "https://livecorona.co.kr/"
@@ -126,7 +126,7 @@
       "id": 1,
       "title": "[인프런] 제주코딩베이스캠프",
       "description": "코알못에서 웹 서비스 런칭까지! 제주코딩베이스캠프와 함께 자신만의 서비스를 만들어보세요.",
-      "thumbnailImg": "src/assets/OG/OG-JCBC.png",
+      "thumbnailImg": "src/assets/OG/lecture/Inflearn.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://www.inflearn.com/users/@jejucoding"
@@ -135,7 +135,7 @@
       "id": 2,
       "title": "[인프런] 더 오름(The Oreum)",
       "description": "제주코딩베이스캠프의 프리미엄 브랜드로 주로 실무, 취업과 연관된 강의를 제작하고 있습니다.",
-      "thumbnailImg": "src/assets/OG/OG-theOreum.png",
+      "thumbnailImg": "src/assets/OG/lecture/Oreum.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://www.inflearn.com/users/200714"
@@ -144,7 +144,7 @@
       "id": 3,
       "title": "유튜브(YouTube)",
       "description": "제주코딩베이스캠프 유튜브 채널입니다.",
-      "thumbnailImg": "src/assets/OG/OG-youtube.png",
+      "thumbnailImg": "src/assets/OG/lecture/Youtube.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://www.youtube.com/@jejucodingcamp"
@@ -153,7 +153,7 @@
       "id": 4,
       "title": "네이버 TV",
       "description": "제주코딩베이스캠프 네이버 TV 채널입니다.",
-      "thumbnailImg": "src/assets/OG/OG-theOreum.png",
+      "thumbnailImg": "src/assets/OG/lecture/NaverTV.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://tv.naver.com/jejucodingbasecamp"
@@ -162,7 +162,7 @@
       "id": 5,
       "title": "구름에듀(goormedu)",
       "description": "구름에듀 캡틴 제주코딩베이스캠프입니다. 함께 학습을 시작해봐요!",
-      "thumbnailImg": "src/assets/OG/OG-theOreum.png",
+      "thumbnailImg": "src/assets/OG/lecture/GoormEdu.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://edu.goorm.io/teacher/627/%EC%A0%9C%EC%A3%BC%EC%BD%94%EB%94%A9%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84/lecture"
@@ -171,7 +171,7 @@
       "id": 6,
       "title": "에드위드(Edwith)",
       "description": "제주코딩베이스캠프 에드위드 강좌 리스트입니다.",
-      "thumbnailImg": "src/assets/OG/OG-theOreum.png",
+      "thumbnailImg": "src/assets/OG/lecture/Edwith.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "http://www.edwith.org/professor/720562"
@@ -180,7 +180,7 @@
       "id": 7,
       "title": "유데미(udemy)",
       "description": "제주코딩베이스캠프 유데미 강좌 리스트입니다.",
-      "thumbnailImg": "src/assets/OG/OG-theOreum.png",
+      "thumbnailImg": "src/assets/OG/lecture/Udemy.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://www.udemy.com/user/ihojun-14/"
@@ -189,7 +189,7 @@
       "id": 8,
       "title": "클래스 101(Class 101)",
       "description": "제주코딩베이스캠프 클래스 101 강좌 리스트입니다.",
-      "thumbnailImg": "src/assets/OG/OG-theOreum.png",
+      "thumbnailImg": "src/assets/OG/lecture/Class101.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://class101.net/ko/search?query=%EC%A0%9C%EC%A3%BC%EC%BD%94%EB%94%A9%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84"
@@ -198,7 +198,7 @@
       "id": 9,
       "title": "탈잉(taling)",
       "description": "제주코딩베이스캠프 탈잉 강좌 리스트입니다.",
-      "thumbnailImg": "src/assets/OG/OG-theOreum.png",
+      "thumbnailImg": "src/assets/OG/lecture/Taling.svg",
       "pubDate": "",
       "category": "온라인 강의 플랫폼",
       "link": "https://taling.me/Home/Search/?query=%EC%A0%9C%EC%A3%BC%EC%BD%94%EB%94%A9%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84"
@@ -209,7 +209,7 @@
       "id": 1,
       "title": "제주 코딩 베이스 캠프",
       "description": "제주에서 5~6일간 진행되는 오프라인 프로그래밍 교육과정 + 해커톤입니다.",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/camp/JCBC.svg",
       "pubDate": "",
       "category": "온/오프라인 캠프",
       "link": "https://jejucodingcamp.com/"
@@ -218,7 +218,7 @@
       "id": 2,
       "title": "제주 알고리즘 베이스 캠프",
       "description": "2박 3일동안 제주에서 진행되는 알고리즘 베이스 캠프! 여러 개발자와 즐거운 문제 풀이를 함께 해요!",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/camp/AlgoCamp.svg",
       "pubDate": "2022-10-10",
       "category": "온/오프라인 캠프",
       "link": "https://jejualcam.co.kr/"
@@ -227,7 +227,7 @@
       "id": 3,
       "title": "제주 웹 컨퍼런스",
       "description": "제주에서 같이 모여 \"웹\" 이야기 함께 나눠요! 약 2~3일간 진행되는 오프라인 컨퍼런스입니다.",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/camp/WebConf.svg",
       "pubDate": "2023-08-05",
       "category": "온/오프라인 캠프",
       "link": "https://jejuweb.kr/"
@@ -238,7 +238,7 @@
       "id": 1,
       "title": "[TECHIT] 프론트엔드 스쿨",
       "description": "기본기와 협업 역량을 동시에 갖춘 주니어 프론트엔드 개발자로의 성장",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/kdt/FE.svg",
       "pubDate": "2023-11-10",
       "category": "KDT",
       "link": "https://abit.ly/fes7_techit_share"
@@ -247,7 +247,7 @@
       "id": 2,
       "title": "[TECHIT] 데이터분석 스쿨",
       "description": "밀도높은 학습 성장 경험을 통해 데이터 분석가로 발돋움할 수 있는 데이터 분석 핵심 집중교육",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/kdt/DA.svg",
       "pubDate": "2023-09-22",
       "category": "KDT",
       "link": "https://techit.education/school/kdt-dataanalysis-1st"
@@ -256,7 +256,7 @@
       "id": 3,
       "title": "[EST] 이스트소프트 오르미",
       "description": "이스트소프트 실무 노하우가 담긴 실속있는 커리큘럼으로 백엔드 개발자 커리어 시작하기!",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/kdt/EST.svg",
       "pubDate": "2023-09-05",
       "category": "KDT",
       "link": "https://estfamily.career.greetinghr.com/kdt-backend-3"
@@ -267,7 +267,7 @@
       "id": 1,
       "title": "위니브 청년 ICT 부스트 장학금",
       "description": "ICT로 진로 직업을 선택한 열정 있는 청년에게 도움을 드리는 장학금입니다.",
-      "thumbnailImg": "src/assets/OG/OG-scholarship.png",
+      "thumbnailImg": "src/assets/OG/support/Scholarship.svg",
       "pubDate": "",
       "category": "청년 지원 프로그램",
       "link": "https://scholarship.weniv.co.kr/"
@@ -276,7 +276,7 @@
       "id": 2,
       "title": "위니브 엠버서더",
       "description": "개발자로서의 성장을 원한다면? 위니브 엠버서더",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/support/Ambassador.svg",
       "pubDate": "",
       "category": "청년 지원 프로그램",
       "link": "https://ambassador.weniv.co.kr/"
@@ -352,7 +352,7 @@
       "id": 1,
       "title": "[카카오톡] 입체적인 후드 개구리",
       "description": "카카오톡으로 소통하는 MZ 세대를 위한 이모티콘",
-      "thumbnailImg": "src/assets/OG/OG-emoticon-frog.png",
+      "thumbnailImg": "src/assets/OG/emoticon/Frog.svg",
       "pubDate": "",
       "category": "이모티콘",
       "link": "https://e.kakao.com/t/the-3d-frog-in-a-hoodie?t_ch=share_link_web"
@@ -361,7 +361,7 @@
       "id": 2,
       "title": "[카카오톡] 입체적인 디자이너",
       "description": "카카오톡으로 소통하는 디자이너를 위한 이모티콘",
-      "thumbnailImg": "src/assets/OG/OG-emoticon-designer.png",
+      "thumbnailImg": "src/assets/OG/emoticon/Designer.svg",
       "pubDate": "",
       "category": "이모티콘",
       "link": "https://e.kakao.com/t/the-three-dimensional-designer?t_ch=share_link_web"
@@ -370,7 +370,7 @@
       "id": 3,
       "title": "[카카오톡] 입체적인 개발자",
       "description": "카카오톡으로 소통하는 개발자를 위한 이모티콘",
-      "thumbnailImg": "src/assets/OG/OG-emoticon-developer.png",
+      "thumbnailImg": "src/assets/OG/emoticon/Developer.svg",
       "pubDate": "",
       "category": "이모티콘",
       "link": "https://e.kakao.com/t/three-dimensional-developer?t_ch=share_link_web"
@@ -381,7 +381,7 @@
       "id": 1,
       "title": "위니브 공식 네이버 블로그",
       "description": "매주 업로드되는 따끈따끈 ‘주간 IT 소식’을 놓치지 마세요!",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/etc/NaverBlog.svg",
       "pubDate": "",
       "category": "기타",
       "link": "https://blog.naver.com/paul-lab"
@@ -390,16 +390,16 @@
       "id": 2,
       "title": "우당탕탕 라이캣의 실험실",
       "description": "개발자를 위한 캐릭터 굿즈샵, 위니브 공식 네이버 스마트 스토어",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/etc/SmartStore.svg",
       "pubDate": "",
       "category": "기타",
-      "link": "https://smartstore.naver.com/weniv_storeb"
+      "link": "https://smartstore.naver.com/weniv_store"
     },
     {
       "id": 3,
       "title": "[유튜브] 우당탕탕 위니브",
       "description": "위니브의 소소한 일상이 업로드되는 유튜브 채널",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/etc/WenivYoutube.svg",
       "pubDate": "",
       "category": "기타",
       "link": "https://www.youtube.com/@weniv"
@@ -408,10 +408,64 @@
       "id": 4,
       "title": "코드 페스티벌(Code Festival)",
       "description": "제주코딩베이스캠프 Code Festival Python 100제와 Javascript 100제를 통해 한걸음 더 나아가세요.",
-      "thumbnailImg": "src/assets/OG/OG-ambassador.png",
+      "thumbnailImg": "src/assets/OG/etc/CodeFestival.svg",
       "pubDate": "",
       "category": "기타",
       "link": "https://paullab.co.kr/codefestival.html"
+    },
+    {
+      "id": 5,
+      "title": "[텀블벅] 개발자 삶에 활력을, \"Hack Your Life\"",
+      "description": "개발자 삶에 활력을 불어넣어줄 아이템 모음<노트북 파우치, 키링 그리고 코딩 연습장>",
+      "thumbnailImg": "src/assets/OG/etc/HackYourLife.svg",
+      "pubDate": "2020-12-10",
+      "category": "기타",
+      "link": "https://link.tumblbug.com/L4QAP0zcXBb"
+    },
+    {
+      "id": 6,
+      "title": "[텀블벅] 워케이션, 어케하맨? <제주 워케이션? 제주 리케이션!>",
+      "description": "제주에서 여행하며 일하는 워케이셔너, 리케이셔너를 위한 안내서",
+      "thumbnailImg": "src/assets/OG/etc/Recation.svg",
+      "pubDate": "2022-11-01",
+      "category": "기타",
+      "link": "https://link.tumblbug.com/PIGCiBycXBb"
+    },
+    {
+      "id": 7,
+      "title": "[와디즈] 개발자 취준 Stop! 프론트엔드 파이널 코딩테스트로 직장 Start!",
+      "description": "프론트엔드 파이널 코딩테스트 모의고사로 프론트엔드 개발자 취업 준비 시원하게 해결하세요!",
+      "thumbnailImg": "src/assets/OG/etc/FinalCotdingTest.svg",
+      "pubDate": "2021-07-16",
+      "category": "기타",
+      "link": "https://www.wadiz.kr/web/campaign/detail/112140?utm_source=wadizshare_in&utm_medium=url"
+    },
+    {
+      "id": 8,
+      "title": "[와디즈] 데이터 분석과 파이썬으로 내 인생 새로고침!",
+      "description": "파이썬 데이터 분석의 모든 것, 제주 코딩 베이스캠프와 시작하세요!",
+      "thumbnailImg": "src/assets/OG/etc/PythonDA.svg",
+      "pubDate": "2020-07-06",
+      "category": "기타",
+      "link": "https://www.wadiz.kr/web/campaign/detail/66071?utm_source=wadizshare_in&utm_medium=url"
+    },
+    {
+      "id": 9,
+      "title": "[와디즈] 아직도 코딩 안 하는 사람이 있다? 얼굴책 클론으로 시작하세요!",
+      "description": "코딩의 쌩기초부터 데이터 분석까지 카인드 패밀리가 아주 카~인드하게 알려드립니다!",
+      "thumbnailImg": "src/assets/OG/etc/OG-9.svg",
+      "pubDate": "2020-04-06",
+      "category": "기타",
+      "link": "https://www.wadiz.kr/web/campaign/detail/57760?utm_source=wadizshare_in&utm_medium=url"
+    },
+    {
+      "id": 10,
+      "title": "[와디즈] 하루 11분, 60일이면 완성하는 파이썬 마스터",
+      "description": "우리의 하루를 조금 더 나아지게 할 필수 강의! 배우고 어제보다 나은 날들을 보내보세요.",
+      "thumbnailImg": "src/assets/OG/etc/PythonMaster.svg",
+      "pubDate": "2020-01-27",
+      "category": "기타",
+      "link": "https://www.wadiz.kr/web/campaign/detail/54921?utm_source=wadizshare_in&utm_medium=url"
     }
   ]
 }
