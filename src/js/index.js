@@ -173,8 +173,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const msgContent = document.querySelector(".msg-content");
     if (!searchedContent.length) {
       msgContent.innerHTML = `<span class='txt-highlight'>${target}</span> 에 대한 검색 결과가 없습니다.`;
+      msgContent.style.display = "block";
     } else {
       msgContent.innerHTML = "";
+      msgContent.style.display = "none";
     }
   }
 

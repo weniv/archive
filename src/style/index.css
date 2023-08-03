@@ -267,6 +267,7 @@ body {
 .content-cont .msg-content {
   margin: 15rem auto;
   text-align: center;
+  display: none;
 }
 
 .main .top-btn {
