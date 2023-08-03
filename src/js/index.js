@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 화면에 컨텐츠를 렌더링
   function renderContent(data) {
     contentList.innerHTML = "";
+    setInfoMsg(category);
 
     // pubData가 없는 경우에는 id 기준으로 정렬
     data.sort((a, b) => {
@@ -44,6 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
     data.forEach((item) => {
       const li = document.createElement("li");
       li.className = "content-item";
+      const a = document.createElement("a");
+      a.setAttribute("href", item.link);
+      a.setAttribute("target", "_blank");
 
       const thumb = document.createElement("img");
       thumb.className = "thumbnail";
@@ -65,14 +69,19 @@ document.addEventListener("DOMContentLoaded", () => {
       category.className = "category sl-ellipsis";
       category.innerText = item.category;
 
-      const link = document.createElement("a");
-      link.className = "link";
+      const link = document.createElement("button");
+      link.className = "share-btn";
       link.setAttribute("href", item.link);
       link.setAttribute("target", "_blank");
       const img = document.createElement("img");
       img.setAttribute("src", "./src/assets/icon-Shar.svg");
-      img.setAttribute("alt", "링크로 이동");
+      img.setAttribute("alt", "링크 복사");
       link.appendChild(img);
+
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        copyUrl(item.link);
+      });
 
       addition.appendChild(category);
       addition.appendChild(link);
@@ -81,12 +90,38 @@ document.addEventListener("DOMContentLoaded", () => {
       info.appendChild(desc);
       info.appendChild(addition);
 
-      li.appendChild(thumb);
-      li.appendChild(info);
+      a.appendChild(thumb);
+      a.appendChild(info);
+      li.appendChild(a);
 
       datafragment.appendChild(li);
     });
     contentList.appendChild(datafragment);
+  }
+  function copyUrl(link) {
+    navigator.clipboard.writeText(link).then((res) => {
+      alert("주소가 클립보드에 복사되었습니다.");
+    });
+  }
+
+  // 카테고리 별로 info-msg 관리
+  function setInfoMsg(category) {
+    const infoMsg = document.querySelector(".info-msg");
+    if (category === "전자책") {
+      infoMsg.style.display = "block";
+      infoMsg.innerHTML = `
+      사도출판의 전자책은 
+      <a class='book-link' href="https://ridibooks.com/search?q=%EC%B6%9C%ED%8C%90%EC%82%AC%3A%EC%82%AC%EB%8F%84%EC%B6%9C%ED%8C%90" target="_blank">리디북스</a>, 
+      <a class='book-link' href="https://search.kyobobook.co.kr/search?keyword=%EC%82%AC%EB%8F%84%EC%B6%9C%ED%8C%90&gbCode=&target=total&pbcmCode=PB37545" target="_blank">교보문고</a>, 
+      <a class='book-link' href="https://www.aladin.co.kr/search/wsearchresult.aspx?PublisherSearch=%ec%82%ac%eb%8f%84%ec%b6%9c%ed%8c%90@269611&BranchType=9" target="_blank">알라딘</a>, 
+      <a class='book-link' href="https://www.yes24.com/Product/Search?&domain=ALL&company=%ec%82%ac%eb%8f%84%ec%b6%9c%ed%8c%90&query=%ec%82%ac%eb%8f%84%ec%b6%9c%ed%8c%90" target="_blank">YES24</a>, 
+      <a class='book-link' href="https://www.millie.co.kr/v3/search/result/%EC%82%AC%EB%8F%84%EC%B6%9C%ED%8C%90?type=total&contentcode=0&searchBack=y&nav_hidden=y&category=1&order=popular" target="_blank">밀리의서재</a>
+      에서 확인하실 수 있습니다.
+      `;
+    } else {
+      infoMsg.style.display = "none";
+      infoMsg.innerHTML = "";
+    }
   }
 
   // category-btn 을 갖는 모든 label 요소에 이벤트 추가
