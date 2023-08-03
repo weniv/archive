@@ -106,10 +106,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const contTitle = document.querySelector(".list-tit");
     if (category === "전체") {
       contTitle.innerText = "전체 컨텐츠 목록";
-      renderContent(totalData);
+      if (search) {
+        searchData(totalData, search);
+      } else {
+        renderContent(totalData);
+      }
     } else {
       contTitle.innerText = `${category} 컨텐츠 목록`;
-      renderContent(storedData[category]);
+      if (search) {
+        searchData(storedData[category], search);
+      } else {
+        renderContent(storedData[category]);
+      }
     }
   }
 
@@ -154,6 +162,14 @@ document.addEventListener("DOMContentLoaded", () => {
         searchData(storedData[category], $searchInp.value);
       }
     }
+  });
+
+  // 입력창 리셋 버튼
+  const $resetBtn = document.querySelector(".reset-btn");
+  $resetBtn.addEventListener("click", () => {
+    $searchInp.value = "";
+    search = "";
+    searchData(storedData[category], "");
   });
 
   // Initialize
