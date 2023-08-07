@@ -202,9 +202,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
-  $searchInp.addEventListener("mouseover", () => {
-    console.log($searchInp.value);
-  });
 
   // 입력창 리셋 버튼
   $resetBtn.addEventListener("click", (e) => {
@@ -215,6 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       searchData(storedData[category], "");
     }
+    $resetBtn.style.display = "none";
   });
 
   // Initialize

@@ -75,13 +75,6 @@ body {
   border: none;
   background-color: var(--bgColor);
 }
-.search-inp:not(:placeholder-shown):focus + .btn-cont .reset-btn {
-  display: block;
-}
-.search-inp:not(:placeholder-shown):hover + .btn-cont .reset-btn {
-  display: block;
-}
-
 .search-cont .btn-cont {
   position: absolute;
   padding: 1.3rem 2rem;
@@ -104,7 +97,7 @@ body {
   position: relative;
   z-index: 5;
   cursor: pointer;
-  /* display: none; */
+  display: none;
 }
 .btn-cont .reset-btn img {
   width: 1.2rem;
