@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const apiUrl = "https://weniv.github.io/weniv_portfolio/src/data/data.json";
-  // const apiUrl = "/src/data/data.json"; // 개발용
+  // const apiUrl = "https://weniv.github.io/weniv_portfolio/src/data/data.json";
+  const apiUrl = "/src/data/data.json"; // 개발용
 
   const contentList = document.querySelector(".content-list");
   let storedData = [];
@@ -98,6 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     contentList.appendChild(datafragment);
   }
+
   function copyUrl(link) {
     navigator.clipboard.writeText(link).then((res) => {
       alert("주소가 클립보드에 복사되었습니다.");
@@ -183,6 +184,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // 검색 이벤트
   const $searchBtn = document.querySelector(".search-btn");
   const $searchInp = document.querySelector(".search-inp");
+  const $resetBtn = document.querySelector(".reset-btn");
+
   $searchBtn.addEventListener("click", () => {
     if (category == "전체") {
       searchData(totalData, $searchInp.value);
@@ -199,10 +202,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
+  $searchInp.addEventListener("mouseover", () => {
+    console.log($searchInp.value);
+  });
 
   // 입력창 리셋 버튼
-  const $resetBtn = document.querySelector(".reset-btn");
-  $resetBtn.addEventListener("click", () => {
+  $resetBtn.addEventListener("click", (e) => {
     $searchInp.value = "";
     search = "";
     if (category === "전체") {
