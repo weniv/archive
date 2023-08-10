@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // const apiUrl = "https://github.com/weniv/archive/blob/main/src/data/data.json";
-  const apiUrl = "./src/data/data.json"; // 개발용
+  const apiUrl = "./src/data/data.json";
 
   const contentList = document.querySelector(".content-list");
   let storedData = [];
