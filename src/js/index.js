@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const thumb = document.createElement("img");
       thumb.className = "thumbnail";
       thumb.setAttribute("src", item.thumbnailImg);
-      thumb.setAttribute("alt", "썸네일");
+      thumb.setAttribute("alt", "");
 
       const info = document.createElement("div");
       info.className = "info-cont";
