@@ -240,6 +240,7 @@ body {
   padding: 1rem 1.6rem;
   width: fit-content;
   background-color: var(--bgLightBlue);
+  color: var(--mainColor);
   border-radius: 5rem;
 }
 
