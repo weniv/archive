@@ -39,7 +39,7 @@
     {
       "id": 5,
       "title": "Python Algorithm Best 20",
-      "description": "Python 알고리즘 테스트 서비스",
+      "description": "코딩 테스트를 준비하는 분들을 위한 Python 알고리즘 테스트 서비스",
       "thumbnailImg": "src/assets/OG/service/Pyalgo.svg",
       "pubDate": "2023.07.20",
       "category": "서비스",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "title": "JS Algorithm Best 20",
-      "description": "JavaScript 알고리즘 테스트 서비스",
+      "description": "코딩 테스트를 준비하는 분들을 위한 JavaScript 알고리즘 테스트 서비스",
       "thumbnailImg": "src/assets/OG/service/JSalgo.svg",
       "pubDate": "2023.06.20",
       "category": "서비스",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "title": "스터디인(Studyin)",
-      "description": "지역 기반 개발 스터디그룹 모집 플랫폼",
+      "description": "개발자 스터디 어디서 만들죠? 지역 기반 개발 스터디그룹 모집 플랫폼 ‘스터디인’",
       "thumbnailImg": "src/assets/OG/service/Studyin.svg",
       "pubDate": "2099-12-31",
       "category": "서비스",
@@ -96,7 +96,7 @@
     {
       "id": 4,
       "title": "FLEX x GRID",
-      "description": "-",
+      "description": "Flex&Grid 시스템을 웹에서 실습해 볼 수 있는 서비스(PDF 자료 제공)",
       "thumbnailImg": "src/assets/OG/opensource/FlexGrid.svg",
       "pubDate": "2022.06.27",
       "category": "오픈소스 프로젝트",
@@ -105,7 +105,7 @@
     {
       "id": 5,
       "title": "StopWar",
-      "description": "우크라이나 전쟁관련 소식 제공 비영리 서비스",
+      "description": "우크라이나 전쟁 관련 소식 제공 비영리 서비스",
       "thumbnailImg": "src/assets/OG/opensource/StopWar.svg",
       "pubDate": "2022.05.03",
       "category": "오픈소스 프로젝트",
@@ -114,7 +114,7 @@
     {
       "id": 6,
       "title": "2020 라이브 코로나맵",
-      "description": "-",
+      "description": "신종 감염병 ‘코로나 바이러스’의 추세를 정확히 판단할 수 있는 서비스",
       "thumbnailImg": "src/assets/OG/opensource/LiveCovid.svg",
       "pubDate": "2020.10.14",
       "category": "오픈소스 프로젝트",
@@ -226,7 +226,7 @@
     {
       "id": 3,
       "title": "제주 웹 컨퍼런스",
-      "description": "제주에서 같이 모여 \"웹\" 이야기 함께 나눠요! 약 2~3일간 진행되는 오프라인 컨퍼런스입니다.",
+      "description": "제주에서 같이 모여 \"웹\" 이야기 함께 나눠요! 약 2~3일간 진행되는 오프라인 콘퍼런스입니다.",
       "thumbnailImg": "src/assets/OG/camp/WebConf.svg",
       "pubDate": "2023.08.05",
       "category": "온/오프라인 캠프",
@@ -266,7 +266,7 @@
     {
       "id": 1,
       "title": "위니브 청년 ICT 부스트 장학금",
-      "description": "ICT로 진로 직업을 선택한 열정 있는 청년에게 도움을 드리는 장학금입니다.",
+      "description": "ICT 분야로 진로/직업을 선택한 열정 있는 청년에게 도움을 드리는 장학금입니다.",
       "thumbnailImg": "src/assets/OG/support/Scholarship.svg",
       "pubDate": "2023.02.24",
       "category": "청년 지원 프로그램",
@@ -275,7 +275,7 @@
     {
       "id": 2,
       "title": "위니브 엠버서더",
-      "description": "개발자로서의 성장을 원한다면? 위니브 엠버서더",
+      "description": "개발자로서의 성장을 원한다면? 위니브 엠버서더가 되어 여러분의 지식과 경험을 널리 공유해 보세요.",
       "thumbnailImg": "src/assets/OG/support/Ambassador.svg",
       "pubDate": "2023.04.04",
       "category": "청년 지원 프로그램",
