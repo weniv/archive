@@ -655,6 +655,15 @@
       "pubDate": "2020.01.27",
       "category": "기타",
       "link": "https://www.wadiz.kr/web/campaign/detail/54921?utm_source=wadizshare_in&utm_medium=url"
+    },
+    {
+      "id": 11,
+      "title": "위니브 개발자 이력서 템플릿",
+      "description": "개발자 여러분들을 위한 피그마(Figma) 개발자 이력서 템플릿을 무료로 배포합니다.",
+      "thumbnailImg": "src/assets/OG/etc/FigmaResume.svg",
+      "pubDate": "2023.07",
+      "category": "기타",
+      "link": "https://paullabworkspace.notion.site/Figma-bfa32213fc244db9b31bb8486a479ee6?pvs=4"
     }
   ]
 }
