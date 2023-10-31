@@ -278,8 +278,10 @@ body {
   bottom: 2.4rem;
   right: 2.4rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 /* .main */
 
 /* footer */
