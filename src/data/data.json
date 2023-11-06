@@ -62,6 +62,15 @@
       "pubDate": "2099-12-31",
       "category": "서비스",
       "link": "https://www.studyin.co.kr/"
+    },
+    {
+      "id": 8,
+      "title": "위니브월드(Weniv World) Beta",
+      "description": "“재미와 학습을 동시에!” 별도의 설치 절차 없이 웹에서 바로 파이썬을 학습할 수 있는 SW 교육 서비스",
+      "thumbnailImg": "src/assets/OG/service/WenivWorld.svg",
+      "pubDate": "2099-12-31",
+      "category": "서비스",
+      "link": "https://world.weniv.co.kr/"
     }
   ],
   "오픈소스 프로젝트": [
