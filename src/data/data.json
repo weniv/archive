@@ -71,6 +71,15 @@
       "pubDate": "2099-12-31",
       "category": "서비스",
       "link": "https://world.weniv.co.kr/"
+    },
+    {
+      "id": 9,
+      "title": "위니브 노트북(Notebook)",
+      "description": "브라우저 내에서 Python 스크립트를 작성하고 실행할 수 있는 서비스",
+      "thumbnailImg": "src/assets/OG/service/WenivNotebook.svg",
+      "pubDate": "2099-12-31",
+      "category": "서비스",
+      "link": "https://notebook.weniv.co.kr/"
     }
   ],
   "오픈소스 프로젝트": [
