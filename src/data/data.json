@@ -556,7 +556,7 @@
     {
       "id": 29,
       "title": "위니브월드 탐험대(학생용): 게임으로 배우는 파이썬 교육 플랫폼",
-      "description": "정규표현식, 포기하지 말고, 미루지 말고 지금 해보는 것은 어떨까요? 정규표현식을 함께 해독해봅시다!",
+      "description": "파이썬 교육 플랫폼 '위니브월드'내 튜토리얼의 챕터별 목표와 스토리, 문제 풀이 등을 제공합니다.",
       "thumbnailImg": "src/assets/OG/ebook/weniv-world-student.svg",
       "pubDate": "2023.11.07.",
       "category": "전자책",
@@ -565,7 +565,7 @@
     {
       "id": 30,
       "title": "위니브월드 탐험대(선생님용): 게임으로 배우는 파이썬 교육 플랫폼",
-      "description": "정규표현식, 포기하지 말고, 미루지 말고 지금 해보는 것은 어떨까요? 정규표현식을 함께 해독해봅시다!",
+      "description": "파이썬 교육 플랫폼 '위니브월드'내 튜토리얼의 챕터별 목표와 스토리, 문제 풀이 등을 제공합니다.",
       "thumbnailImg": "src/assets/OG/ebook/weniv-world-teacher.svg",
       "pubDate": "2023.11.07",
       "category": "전자책",
