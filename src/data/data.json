@@ -295,7 +295,7 @@
       "title": "위니브 엠버서더",
       "description": "개발자로서의 성장을 원한다면? 위니브 엠버서더가 되어 여러분의 지식과 경험을 널리 공유해 보세요.",
       "thumbnailImg": "src/assets/OG/support/Ambassador.svg",
-      "pubDate": "2023.04.04",
+      "pubDate": "2023.09.20",
       "category": "청년 지원 프로그램",
       "link": "https://ambassador.weniv.co.kr/"
     }
@@ -552,6 +552,24 @@
       "pubDate": "2017.03.24",
       "category": "전자책",
       "link": "https://ridibooks.com/books/2773000001?_s=search&_q=%EC%82%AC%EB%8F%84%EC%B6%9C%ED%8C%90&_rdt_sid=search&_rdt_idx=18"
+    },
+    {
+      "id": 29,
+      "title": "위니브월드 탐험대(학생용): 게임으로 배우는 파이썬 교육 플랫폼",
+      "description": "정규표현식, 포기하지 말고, 미루지 말고 지금 해보는 것은 어떨까요? 정규표현식을 함께 해독해봅시다!",
+      "thumbnailImg": "src/assets/OG/ebook/weniv-world-student.svg",
+      "pubDate": "2023.11.07.",
+      "category": "전자책",
+      "link": "https://ridibooks.com/books/2773000089"
+    },
+    {
+      "id": 30,
+      "title": "위니브월드 탐험대(선생님용): 게임으로 배우는 파이썬 교육 플랫폼",
+      "description": "정규표현식, 포기하지 말고, 미루지 말고 지금 해보는 것은 어떨까요? 정규표현식을 함께 해독해봅시다!",
+      "thumbnailImg": "src/assets/OG/ebook/weniv-world-teacher.svg",
+      "pubDate": "2023.11.07",
+      "category": "전자책",
+      "link": "https://ridibooks.com/books/2773000090"
     }
   ],
   "이모티콘": [
