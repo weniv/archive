@@ -21,11 +21,12 @@ body {
   margin: auto;
   max-width: 1280px;
   width: 100%;
-  padding: 1.7rem 4rem;
+  padding: 1.8rem 4rem;
 }
 
 .header .title img {
   height: 100%;
+  display: block;
 }
 
 .header .official-link img {
