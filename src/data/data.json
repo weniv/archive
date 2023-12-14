@@ -278,6 +278,15 @@
       "pubDate": "2023.08.16",
       "category": "KDT",
       "link": "https://blog.naver.com/paul-lab/223177840811"
+    },
+    {
+      "id": 3,
+      "title": "[모두연] 인공지능(AI) 모델 활용 백엔드 개발 과정",
+      "description": "Python + Django, DRF + 클라우드 그리고 AI 활용까지 한 번에 배워보세요.",
+      "thumbnailImg": "src/assets/OG/kdt/modulabs-back.png",
+      "pubDate": "2023.12.28",
+      "category": "KDT",
+      "link": "https://camp.orm.im/backend-ai"
     }
   ],
   "청년 지원 프로그램": [
