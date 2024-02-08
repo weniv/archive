@@ -77,7 +77,7 @@
       "title": "위니브 노트북(Notebook)",
       "description": "브라우저 내에서 Python 스크립트를 작성하고 실행할 수 있는 서비스",
       "thumbnailImg": "src/assets/OG/service/WenivNotebook.svg",
-      "pubDate": "2099-12-30",
+      "pubDate": "2024-01-03",
       "category": "서비스",
       "link": "https://notebook.weniv.co.kr/"
     },
@@ -95,9 +95,26 @@
       "title": "위니브 SQL",
       "description": "로그인 없이 바로 실행할 수 있는 온라인 SQL 데모 서비스를 통해 데이터베이스 쿼리를 작성하고 실행하며 간단하게 SQL 학습을 시작하세요.",
       "thumbnailImg": "src/assets/OG/service/weniv-sql.png",
-      "pubDate": "20249-01-22",
+      "pubDate": "2024-01-22",
       "category": "서비스",
       "link": "https://sql.weniv.co.kr/"
+    },
+    {
+      "id": 12,
+      "title": "Python Algorithm Basic 100",
+      "description": "코딩 테스트를 시작하는 분들을 위한 Python 알고리즘 테스트 서비스, 100가지 문제로 더욱 풍성하게!",
+      "thumbnailImg": "src/assets/OG/service/pyalgo-basic100.png",
+      "pubDate": "2024-02-08",
+      "category": "서비스",
+      "link": "https://100.pyalgo.co.kr/"
+    },  {
+      "id": 13,
+      "title": "위니북스",
+      "description": "위니브의 다양한 ICT 교안을 웹에서 확인해 볼 수 있는 WebBook 서비스",
+      "thumbnailImg": "src/assets/OG/service/wenivooks.png",
+      "pubDate": "2024-02-08",
+      "category": "서비스",
+      "link": "https://www.books.weniv.co.kr/"
     }
   ],
   "오픈소스 프로젝트": [
