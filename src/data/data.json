@@ -107,7 +107,8 @@
       "pubDate": "2024-02-07",
       "category": "서비스",
       "link": "https://100.pyalgo.co.kr/"
-    },  {
+    },
+    {
       "id": 13,
       "title": "위니북스",
       "description": "위니브의 다양한 ICT 교안을 웹에서 확인해 볼 수 있는 WebBook 서비스",
@@ -262,8 +263,8 @@
       "id": 1,
       "title": "제주 코딩 베이스 캠프",
       "description": "제주에서 5~6일간 진행되는 오프라인 프로그래밍 교육과정 + 해커톤입니다.",
-      "thumbnailImg": "src/assets/OG/camp/JCBC.svg",
-      "pubDate": "2021.08.26",
+      "thumbnailImg": "src/assets/OG/camp/jcbc.png",
+      "pubDate": "2024.02.19",
       "category": "온/오프라인 캠프",
       "link": "https://jejucodingcamp.com/"
     },
