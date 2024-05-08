@@ -125,6 +125,15 @@
       "pubDate": "2024.03.21",
       "category": "서비스",
       "link": "https://weniv.link/"
+    },
+    {
+      "id": 15,
+      "title": "위니블로그",
+      "description": "GitHub Pages를 활용하여 블로그를 손쉽게 제작할 수 있는 서비스",
+      "thumbnailImg": "src/assets/OG/service/wenivlog.png",
+      "pubDate": "2024.05.08",
+      "category": "서비스",
+      "link": "https://blog.weniv.co.kr/"
     }
   ],
   "오픈소스 프로젝트": [
@@ -308,39 +317,30 @@
   "KDT": [
     {
       "id": 1,
-      "title": "[TECHIT] 프론트엔드 스쿨",
-      "description": "기본기와 협업 역량을 동시에 갖춘 주니어 프론트엔드 개발자로의 성장",
-      "thumbnailImg": "src/assets/OG/kdt/FE.svg",
-      "pubDate": "2023.07.03",
+      "title": "Django 백엔드 개발 과정 with AI 모델 프로젝트",
+      "description": "제주코딩베이스캠프 각 분야별 1티어 스페셜리스트들의 100% 노하우를 담은 과정을 경험하세요.",
+      "thumbnailImg": "src/assets/OG/kdt/modulabs-be.png",
+      "pubDate": "2024.09.27",
       "category": "KDT",
-      "link": "https://abit.ly/fes7_techit_share"
+      "link": "https://camp.orm.im/backend-ai"
     },
     {
       "id": 2,
-      "title": "[TECHIT] 데이터분석 스쿨",
-      "description": "밀도높은 학습 성장 경험을 통해 데이터 분석가로 발돋움할 수 있는 데이터 분석 핵심 집중교육",
-      "thumbnailImg": "src/assets/OG/kdt/DA.svg",
-      "pubDate": "2023.04.25",
+      "title": "백엔드 개발자 양성 과정 오르미",
+      "description": "실속 있는 커리큘럼과 검증된 교육 과정으로 백엔드 개발자 커리어를 시작해 보세요.",
+      "thumbnailImg": "src/assets/OG/kdt/est-be.png",
+      "pubDate": "2024.09.13",
       "category": "KDT",
-      "link": "https://techit.education/school/kdt-dataanalysis-1st"
+      "link": "https://estfamily.career.greetinghr.com/kdt"
     },
     {
       "id": 3,
-      "title": "[EST] 이스트소프트 오르미",
-      "description": "이스트소프트 실무 노하우가 담긴 실속있는 커리큘럼으로 백엔드 개발자 커리어 시작하기!",
-      "thumbnailImg": "src/assets/OG/kdt/EST.svg",
-      "pubDate": "2023.08.16",
+      "title": "프론트엔드 개발자 양성 과정 오르미",
+      "description": "실속 있는 커리큘럼과 검증된 교육 과정으로 프론트엔드 개발자 커리어를 시작해 보세요.",
+      "thumbnailImg": "src/assets/OG/kdt/est-fe.png",
+      "pubDate": "2024.10.21",
       "category": "KDT",
-      "link": "https://blog.naver.com/paul-lab/223177840811"
-    },
-    {
-      "id": 3,
-      "title": "[모두연] 인공지능(AI) 모델 활용 백엔드 개발 과정",
-      "description": "Python + Django, DRF + 클라우드 그리고 AI 활용까지 한 번에 배워보세요.",
-      "thumbnailImg": "src/assets/OG/kdt/modulabs-back.png",
-      "pubDate": "2023.12.28",
-      "category": "KDT",
-      "link": "https://camp.orm.im/backend-ai"
+      "link": "https://estfamily.career.greetinghr.com/kdt"
     }
   ],
   "청년 지원 프로그램": [
@@ -358,7 +358,7 @@
       "title": "위니브 엠버서더",
       "description": "개발자로서의 성장을 원한다면? 위니브 엠버서더가 되어 여러분의 지식과 경험을 널리 공유해 보세요.",
       "thumbnailImg": "src/assets/OG/support/Ambassador.svg",
-      "pubDate": "2023.09.20",
+      "pubDate": "2024.05.28",
       "category": "청년 지원 프로그램",
       "link": "https://ambassador.weniv.co.kr/"
     }
