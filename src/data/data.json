@@ -214,6 +214,15 @@
     },
     {
       "id": 3,
+      "title": "[인프런] 베이스캠프",
+      "description": "웹 개발 입문자를 위한 찍먹 강의 시리즈입니다.",
+      "thumbnailImg": "src/assets/OG/lecture/Inflearn-Basecamp.png",
+      "pubDate": "",
+      "category": "온라인 강의 플랫폼",
+      "link": "https://www.inflearn.com/roadmaps/1181"
+    },
+    {
+      "id": 4,
       "title": "유튜브(YouTube)",
       "description": "제주코딩베이스캠프 유튜브 채널입니다.",
       "thumbnailImg": "src/assets/OG/lecture/Youtube.svg",
@@ -222,7 +231,7 @@
       "link": "https://www.youtube.com/@jejucodingcamp"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "네이버 TV",
       "description": "제주코딩베이스캠프 네이버 TV 채널입니다.",
       "thumbnailImg": "src/assets/OG/lecture/NaverTV.svg",
@@ -231,7 +240,7 @@
       "link": "https://tv.naver.com/jejucodingbasecamp"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "구름에듀(goormedu)",
       "description": "구름에듀 캡틴 제주코딩베이스캠프입니다. 함께 학습을 시작해봐요!",
       "thumbnailImg": "src/assets/OG/lecture/GoormEdu.svg",
@@ -240,7 +249,7 @@
       "link": "https://edu.goorm.io/teacher/627/%EC%A0%9C%EC%A3%BC%EC%BD%94%EB%94%A9%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84/lecture"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "에드위드(Edwith)",
       "description": "제주코딩베이스캠프 에드위드 강좌 리스트입니다.",
       "thumbnailImg": "src/assets/OG/lecture/Edwith.svg",
@@ -249,7 +258,7 @@
       "link": "http://www.edwith.org/professor/720562"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "유데미(udemy)",
       "description": "제주코딩베이스캠프 유데미 강좌 리스트입니다.",
       "thumbnailImg": "src/assets/OG/lecture/Udemy.svg",
@@ -258,7 +267,7 @@
       "link": "https://www.udemy.com/user/ihojun-14/"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "클래스 101(Class 101)",
       "description": "제주코딩베이스캠프 클래스 101 강좌 리스트입니다.",
       "thumbnailImg": "src/assets/OG/lecture/Class101.svg",
@@ -267,7 +276,7 @@
       "link": "https://class101.net/ko/search?query=%EC%A0%9C%EC%A3%BC%EC%BD%94%EB%94%A9%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "탈잉(taling)",
       "description": "제주코딩베이스캠프 탈잉 강좌 리스트입니다.",
       "thumbnailImg": "src/assets/OG/lecture/Taling.svg",
@@ -687,7 +696,7 @@
       "id": 3,
       "title": "[유튜브] 우당탕탕 위니브",
       "description": "위니브의 소소한 일상이 업로드되는 유튜브 채널",
-      "thumbnailImg": "src/assets/OG/etc/WenivYoutube.svg",
+      "thumbnailImg": "src/assets/OG/etc/WenivYoutube.png",
       "pubDate": "",
       "category": "기타",
       "link": "https://www.youtube.com/@weniv"
